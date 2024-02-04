@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55.4px;
+  background-color: #E9ECEF;
+  padding: 16px 48px;
+  color: #343A40;
+  font-size: 14px;
+}
+header #Contact a {
+  transition-duration: 0.2s;
+}
+header #Contact a:hover {
+  color: #bcac76;
+}
+header #Header-info {
+  color: #343A40;
+  font-weight: 400;
+  font-size: 14px;
+}
+header #Language select {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin: 0 16px;
+  color: #343A40;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#Contact {
+  display: flex;
+  gap: 15px;
+}
+#Contactspan {
+  padding-left: 80px;
+}
+#Contact a {
+  color: #343A40;
+}
+
+#Main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 81px;
+  padding: 19.2px 48px;
+  background-color: transparent;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+#Main-header a {
+  color: black;
+  text-decoration: none;
+}
+#Main-header #Links {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 110px;
+}
+#Main-header #Links select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#Search-container {
+  display: flex;
+  align-self: center;
+  margin-left: 500px;
+  border-bottom: 1px solid rgba(52, 58, 64, 0.337254902);
+  transition-duration: 0.2s;
+}
+#Search-container:hover {
+  border-bottom: 1px solid #343A40;
+}
+#Search-container #Search-input {
+  border: none;
+  height: 40px;
+  width: 212px;
+  outline: none;
+}
+#Search-container #Search-icon {
+  display: flex;
+  align-items: center;
+}
+
+#Icon-container {
+  margin-left: 120px;
+}
+#Icon-container a {
+  margin: 0 16px 0 0;
+  font-size: 22px;
+}
+
+#Hero {
+  padding: 96px 0;
+}
+#Hero #Hero-inner {
+  margin: 0 200px;
+  padding: 0 15px;
+}
+#Hero #Hero-inner .hero-span {
+  margin: 0 0 8px;
+  padding: 12px 16px 12px 0;
+}
+#Hero #Hero-inner .hero-span .hero-a {
+  color: #bcac76;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+#Hero #Hero-inner .hero-span .customer-span {
+  color: #868e96;
+  font-size: 14px;
+  font-weight: 500;
+}
+#Hero #Hero-inner .hero-h1 {
+  font-size: 56px;
+  font-weight: 800;
+  margin: 0 0 16px;
+  color: #212529;
+}
+#Hero #Hero-inner .hero-p {
+  color: #868e96;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#Login-container {
+  display: flex;
+  padding: 0 200px 48px;
+  gap: 150px;
+}
+#Login-container .login-container {
+  box-shadow: 0 0 15px #cdd5de;
+  border-radius: 10px;
+  height: max-content;
+}
+
+.input-header {
+  padding: 24px 48px;
+  background-color: #F7F7F7;
+}
+.input-header h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.input-body {
+  padding: 48px;
+}
+.input-body .header-p {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+.input-body .content-p {
+  font-size: 14px;
+  color: #868e96;
+  margin: 0 0 16px;
+  font-weight: 500;
+}
+.input-body .content-p .input-a {
+  color: #bcac76;
+  text-decoration: none;
+}
+.input-body .content-p .input-a:hover {
+  text-decoration: underline;
+}
+.input-body .login {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 16px;
+}
+.input-body .login label {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.input-body .login input {
+  border: 1px solid #adb5bd;
+  outline: none;
+  padding: 6px 12px;
+}
+.input-body .btn {
+  background-color: #212529;
+  color: #fff;
+  padding: 8.4px 12px;
+  font-size: 12.8px;
+  font-weight: 700;
+}
+.input-body .btn:hover {
+  background-color: #101010;
+}
+.input-body .btn i {
+  margin: 0 10px 0 0;
+}
+
+.card-header strong,
+label strong {
+  font-weight: bold;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.login-card {
+  height: 150px;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.new-account-card {
+  width: 400px;
+}
+
+.additionally {
+  display: flex;
+  padding: 90px 150px;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+.additionally .advantages {
+  display: flex;
+  align-items: center;
+  padding: 24px 15px;
+  width: 285px;
+  height: 80px;
+  gap: 7px;
+}
+.additionally .advantages h6 {
+  font-size: 14px;
+  color: #212529;
+  margin: 0 0 4px;
+}
+.additionally .advantages p {
+  font-size: 14px;
+  color: #868e96;
+}
+.additionally .advantages .icons {
+  color: #495057;
+  font-size: 20px;
+  margin: 0 16px;
+}
+
+#Text-muted {
+  display: flex;
+  padding: 96px 200px;
+}
+#Text-muted h6 {
+  font-size: 16px;
+  margin: 0 0 24px;
+  color: #212529;
+}
+#Text-muted p {
+  font-size: 14px;
+  margin: 0 0 16px;
+  color: #868e96;
+}
+#Text-muted a {
+  text-decoration: none;
+  color: #868e96;
+}
+#Text-muted ul {
+  list-style: none;
+}
+#Text-muted input {
+  padding: 6px 12px 6px 0;
+  border: none;
+  border-bottom: 1px solid #868e96;
+  width: 380px;
+  font-size: 15px;
+  font-weight: 600;
+  transition-duration: 0.3s;
+  outline: none;
+}
+#Text-muted input:hover {
+  border-bottom: 1px solid #212529;
+}
+#Text-muted input::placeholder {
+  color: #adb5bd;
+}
+#Text-muted #Be-in-touch-container {
+  width: 475px;
+  height: 205px;
+  padding: 0 96px 0 0;
+}
+#Text-muted #Be-in-touch-container #Input {
+  display: flex;
+}
+#Text-muted #Be-in-touch-container #Input i {
+  font-size: 30px;
+  position: absolute;
+  transform: translate(-40px, -7px);
+  transition-duration: 0.5s;
+}
+#Text-muted #Be-in-touch-container #Input i:hover {
+  color: black;
+}
+#Text-muted .bottom-ul {
+  padding: 0 15px;
+  width: 200px;
+}
+#Text-muted .bottom-ul a {
+  transition-duration: 0.2s;
+}
+#Text-muted .bottom-ul a:hover {
+  color: #212529;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 24px 200px;
+  display: flex;
+  justify-content: space-between;
+  color: #adb5bd;
+  font-size: 14px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #adb5bd;
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "name": "task",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass:watch": "sass assets/scss:assets/css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

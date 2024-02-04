@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55.4px;
+  background-color: #E9ECEF;
+  padding: 16px 48px;
+  color: #343A40;
+  font-size: 14px;
+}
+header #Contact a {
+  transition-duration: 0.2s;
+}
+header #Contact a:hover {
+  color: #bcac76;
+}
+header #Header-info {
+  color: #343A40;
+  font-weight: 400;
+  font-size: 14px;
+}
+header #Language select {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin: 0 16px;
+  color: #343A40;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#Contact {
+  display: flex;
+  gap: 15px;
+}
+#Contactspan {
+  padding-left: 80px;
+}
+#Contact a {
+  color: #343A40;
+}
+
+#Main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 81px;
+  padding: 19.2px 48px;
+  background-color: transparent;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+#Main-header a {
+  color: black;
+  text-decoration: none;
+}
+#Main-header #Links {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 110px;
+}
+#Main-header #Links select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#Search-container {
+  display: flex;
+  align-self: center;
+  margin-left: 500px;
+  border-bottom: 1px solid rgba(52, 58, 64, 0.337254902);
+  transition-duration: 0.2s;
+}
+#Search-container:hover {
+  border-bottom: 1px solid #343A40;
+}
+#Search-container #Search-input {
+  border: none;
+  height: 40px;
+  width: 212px;
+  outline: none;
+}
+#Search-container #Search-icon {
+  display: flex;
+  align-items: center;
+}
+
+#Icon-container {
+  margin-left: 120px;
+}
+#Icon-container a {
+  margin: 0 16px 0 0;
+  font-size: 22px;
+}
+
+.fixed-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 48px 100px 0;
+}
+
+.photo {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 432px;
+  width: 100%;
+  overflow: hidden;
+}
+.photo img {
+  position: absolute;
+  object-fit: cover;
+  height: 432px;
+  width: 90%;
+}
+.photo ol {
+  font-size: larger;
+  z-index: 9999;
+}
+.photo ol .breadcrumb-item {
+  font-size: 14px;
+  font-weight: 500;
+}
+.photo ol .breadcrumb-item a {
+  color: #bcac76;
+  text-decoration: none;
+}
+.photo ol .active {
+  color: #868e96;
+}
+.photo h1 {
+  z-index: 9999;
+  color: white;
+  font-size: 88px;
+  margin: 0 0 8px;
+}
+.photo .photo-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 168.8px;
+  width: 1110px;
+}
+
+.main {
+  margin: 48px 165px 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+}
+.main .line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  gap: 48px;
+}
+.main .line #img1 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img2 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img3 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img4 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img5 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img6 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img7 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img8 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line #img9 {
+  animation: myAnimation 0.35s linear;
+  animation-play-state: paused;
+}
+.main .line img {
+  width: 100%;
+  height: auto;
+}
+.main .line h5 {
+  margin: 28px 0 8px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.main .line p {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ADB5BD;
+}
+.main .line p a {
+  color: #bcac76;
+  text-decoration: none;
+  font-size: 11.2px;
+  letter-spacing: 3px;
+}
+
+#Advantages {
+  display: flex;
+  padding: 96px 200px;
+  justify-content: space-between;
+  background-color: #F8F9FA;
+}
+#Advantages .advantages {
+  display: flex;
+  align-items: center;
+  padding: 24px 15px;
+  width: 285px;
+  height: 92.6px;
+  gap: 7px;
+}
+#Advantages .advantages h6 {
+  font-size: 14px;
+  color: #212529;
+  margin: 0 0 4px;
+}
+#Advantages .advantages p {
+  font-size: 14px;
+  color: #868e96;
+}
+#Advantages .advantages .icons {
+  color: #495057;
+  font-size: 20px;
+  margin: 0 16px;
+}
+
+#Text-muted {
+  display: flex;
+  padding: 96px 200px;
+}
+#Text-muted h6 {
+  font-size: 16px;
+  margin: 0 0 24px;
+  color: #212529;
+}
+#Text-muted p {
+  font-size: 14px;
+  margin: 0 0 16px;
+  color: #868e96;
+}
+#Text-muted a {
+  text-decoration: none;
+  color: #868e96;
+}
+#Text-muted ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+#Text-muted input {
+  padding: 6px 12px 6px 0;
+  border: none;
+  border-bottom: 1px solid #868e96;
+  width: 380px;
+  font-size: 16px;
+  font-weight: 600;
+  transition-duration: 0.2s;
+  outline: none;
+}
+#Text-muted input:hover {
+  border-bottom: 1px solid #212529;
+}
+#Text-muted input::placeholder {
+  color: #ADB5BD;
+}
+#Text-muted #Be-in-touch-container {
+  width: 475px;
+  height: 205px;
+  padding: 0 96px 0 0;
+}
+#Text-muted #Be-in-touch-container #Input {
+  display: flex;
+}
+#Text-muted #Be-in-touch-container #Input i {
+  font-size: 33px;
+  position: absolute;
+  transform: translate(-40px, -7px);
+  transition-duration: 0.2s;
+}
+#Text-muted #Be-in-touch-container #Input i:hover {
+  color: #212529;
+}
+#Text-muted .bottom-ul {
+  padding: 0 15px;
+  width: 200px;
+}
+#Text-muted .bottom-ul a {
+  transition-duration: 0.2s;
+}
+#Text-muted .bottom-ul a:hover {
+  color: #212529;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 24px 200px;
+  display: flex;
+  justify-content: space-between;
+  color: #ADB5BD;
+  font-size: 14px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+footer ul a {
+  text-decoration: none;
+  color: #ADB5BD;
+}
+
+@keyframes myAnimation {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/*# sourceMappingURL=main2.css.map */
